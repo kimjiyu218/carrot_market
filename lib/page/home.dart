@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 
+import 'detail.dart';
+
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -44,7 +46,6 @@ class _HomeState extends State<Home> {
             borderRadius: BorderRadius.circular(10.0),
           ),
           onSelected: (String where) {
-            print(where);
             setState(() {
               currentLocation = where;
             });
@@ -113,7 +114,8 @@ class _HomeState extends State<Home> {
 
               return GestureDetector(
                 onTap: () {
-                  print(datas[index]["title"]);
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => DetailContentView(data: item)));
                 },
                 child: Container(
                   padding: EdgeInsets.symmetric(vertical: 10),
@@ -122,11 +124,14 @@ class _HomeState extends State<Home> {
                       // 이미지
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.asset(
-                          item["image"] ?? "assets/images/default.png", // 기본 이미지 경로
-                          width: 100,
-                          height: 100,
-                          fit: BoxFit.cover,
+                        child: Hero(
+                          tag: item["cid"] ?? "defaultTag",
+                          child: Image.asset(
+                            item["image"] ?? "assets/images/default.png", // 기본 이미지 경로
+                            width: 100,
+                            height: 100,
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                       SizedBox(width: 20), // 이미지와 텍스트 사이의 간격

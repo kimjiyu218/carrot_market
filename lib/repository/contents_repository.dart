@@ -2,6 +2,7 @@ class ContentsRepository {
   Map<String, dynamic> data = {
       "singa": [
           {
+              "cid" : "1",
               "image": "assets/images/ara-1.jpg",
               "title": "네메시스 축구화275",
               "location": "제주 제주시 아라동",
@@ -9,6 +10,7 @@ class ContentsRepository {
               "likes": "2",
           },
           {
+              "cid" : "2",
               "image": "assets/images/ara-2.jpg",
               "title": "LA갈비 5Kg팔아요~",
               "location": "제주 제주시 아라동",
@@ -16,6 +18,7 @@ class ContentsRepository {
               "likes": "6",
           },
           {
+              "cid" : "3",
               "image": "assets/images/ara-4.jpg",
               "title": "[풀박스]맥북프로16인치 터치바 스페이스그레이",
               "location": "제주 제주시 아라동",
@@ -23,6 +26,7 @@ class ContentsRepository {
               "likes": "4",
           },
           {
+              "cid" : "4",
               "image": "assets/images/ara-5.jpg",
               "title": "네메시스 축구화275",
               "location": "제주 제주시 아라동",
@@ -30,6 +34,7 @@ class ContentsRepository {
               "likes": "10",
           },
           {
+              "cid" : "5",
               "image": "assets/images/ara-6.jpg",
               "title": "갤럭시s10",
               "location": "제주 제주시 아라동",
@@ -37,6 +42,7 @@ class ContentsRepository {
               "likes": "2",
           },
           {
+              "cid" : "6",
               "image": "assets/images/ara-7.jpg",
               "title": "선반",
               "location": "제주 제주시 아라동",
@@ -44,6 +50,7 @@ class ContentsRepository {
               "likes": "1",
           },
           {
+              "cid" : "7",
               "image": "assets/images/ara-8.jpg",
               "title": "냉장 쇼케이스",
               "location": "제주 제주시 아라동",
@@ -51,6 +58,7 @@ class ContentsRepository {
               "likes": "4",
           },
           {
+              "cid" : "8",
               "image": "assets/images/ara-9.jpg",
               "title": "대우미니냉장고",
               "location": "제주 제주시 아라동",
@@ -58,6 +66,7 @@ class ContentsRepository {
               "likes": "7",
           },
           {
+              "cid" : "9",
               "image": "assets/images/ara-10.jpg",
               "title": "멜킨스 풀업 운동기구",
               "location": "제주 제주시 아라동",
@@ -67,6 +76,7 @@ class ContentsRepository {
       ],
       "unnam": [
           {
+              "cid" : "10",
               "image": "assets/images/ora-1.jpg",
               "title": "네메시스 축구화275",
               "location": "제주 제주시 아라동",
@@ -74,6 +84,7 @@ class ContentsRepository {
               "likes": "2",
           },
           {
+              "cid" : "11",
               "image": "assets/images/ora-2.jpg",
               "title": "LA갈비 5Kg팔아요~",
               "location": "제주 제주시 아라동",
@@ -81,6 +92,7 @@ class ContentsRepository {
               "likes": "6",
           },
           {
+              "cid" : "12",
               "image": "assets/images/ora-4.jpg",
               "title": "[풀박스]맥북프로16인치 터치바 스페이스그레이",
               "location": "제주 제주시 아라동",
@@ -88,6 +100,7 @@ class ContentsRepository {
               "likes": "4",
           },
           {
+              "cid" : "13",
               "image": "assets/images/ora-5.jpg",
               "title": "네메시스 축구화275",
               "location": "제주 제주시 아라동",
@@ -95,6 +108,7 @@ class ContentsRepository {
               "likes": "10",
           },
           {
+              "cid" : "14",
               "image": "assets/images/ora-6.jpg",
               "title": "갤럭시s10",
               "location": "제주 제주시 아라동",
@@ -102,6 +116,7 @@ class ContentsRepository {
               "likes": "2",
           },
           {
+              "cid" : "15",
               "image": "assets/images/ora-7.jpg",
               "title": "선반",
               "location": "제주 제주시 아라동",
@@ -109,6 +124,7 @@ class ContentsRepository {
               "likes": "1",
           },
           {
+              "cid" : "16",
               "image": "assets/images/ora-8.jpg",
               "title": "냉장 쇼케이스",
               "location": "제주 제주시 아라동",
@@ -116,6 +132,7 @@ class ContentsRepository {
               "likes": "4",
           },
           {
+              "cid" : "17",
               "image": "assets/images/ora-9.jpg",
               "title": "대우미니냉장고",
               "location": "제주 제주시 아라동",
@@ -123,6 +140,7 @@ class ContentsRepository {
               "likes": "7",
           },
           {
+              "cid" : "18",
               "image": "assets/images/ora-10.jpg",
               "title": "멜킨스 풀업 운동기구",
               "location": "제주 제주시 아라동",
@@ -132,6 +150,7 @@ class ContentsRepository {
       ],
       "sinchang": [
           {
+              "cid" : "19",
               "image": "assets/images/ara-1.jpg",
               "title": "네메시스 축구화275",
               "location": "제주 제주시 아라동",
@@ -139,6 +158,7 @@ class ContentsRepository {
               "likes": "2",
           },
           {
+              "cid" : "20",
               "image": "assets/images/ara-2.jpg",
               "title": "LA갈비 5Kg팔아요~",
               "location": "제주 제주시 아라동",
@@ -146,6 +166,7 @@ class ContentsRepository {
               "likes": "6",
           },
           {
+              "cid" : "21",
               "image": "assets/images/ara-4.jpg",
               "title": "[풀박스]맥북프로16인치 터치바 스페이스그레이",
               "location": "제주 제주시 아라동",
@@ -153,6 +174,7 @@ class ContentsRepository {
               "likes": "4",
           },
           {
+              "cid" : "22",
               "image": "assets/images/ara-5.jpg",
               "title": "네메시스 축구화275",
               "location": "제주 제주시 아라동",
@@ -160,6 +182,7 @@ class ContentsRepository {
               "likes": "10",
           },
           {
+              "cid" : "23",
               "image": "assets/images/ara-6.jpg",
               "title": "갤럭시s10",
               "location": "제주 제주시 아라동",
@@ -167,6 +190,7 @@ class ContentsRepository {
               "likes": "2",
           },
           {
+              "cid" : "24",
               "image": "assets/images/ara-7.jpg",
               "title": "선반",
               "location": "제주 제주시 아라동",
@@ -174,6 +198,7 @@ class ContentsRepository {
               "likes": "1",
           },
           {
+              "cid" : "25",
               "image": "assets/images/ara-8.jpg",
               "title": "냉장 쇼케이스",
               "location": "제주 제주시 아라동",
@@ -181,6 +206,7 @@ class ContentsRepository {
               "likes": "4",
           },
           {
+              "cid" : "26",
               "image": "assets/images/ara-9.jpg",
               "title": "대우미니냉장고",
               "location": "제주 제주시 아라동",
@@ -188,6 +214,7 @@ class ContentsRepository {
               "likes": "7",
           },
           {
+              "cid" : "27",
               "image": "assets/images/ara-10.jpg",
               "title": "멜킨스 풀업 운동기구",
               "location": "제주 제주시 아라동",
